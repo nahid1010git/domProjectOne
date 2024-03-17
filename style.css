@@ -1,0 +1,18 @@
+
+
+.btn{
+    background-color: aqua;
+    font-size: 22px;
+    height: 30px;
+    width: 100px;
+    text-transform: uppercase;
+}
+
+.big{
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
