@@ -2,8 +2,10 @@
 body{
     display: flex;
     flex-direction: column;
+justify-content: center;
     row-gap: 100px;
    background-color: rgba(0, 0, 0, 0.377);
+   height: 100vh;
 }
 .btn{
     background-color: aqua;
@@ -20,6 +22,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+  
 }
 
 #btnTwo{
