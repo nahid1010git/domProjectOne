@@ -18,3 +18,13 @@ offBtn.addEventListener("click",function(){
 onnBtn.addEventListener("click",function(){
     hollder.src = lightSrcObj.on;
 })
+
+
+
+
+const btnTwo = document.getElementById("btnTwo");
+const peragraph = document.getElementById("peragraph");
+let message = `kiser prem piriti laga biya...`
+btnTwo.addEventListener("click",function(){
+    peragraph.innerText = message;
+})
